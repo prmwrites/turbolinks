@@ -16,5 +16,6 @@
 //= require turbolinks
 //= require turbolinks_transitions
 //= require_tree .
+//= require glow.js
 
 $(document).foundation();

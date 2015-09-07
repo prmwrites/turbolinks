@@ -12,7 +12,9 @@
     <%= csrf_meta_tags %>
   </head>
 
-  <body>
+  <body>        
+    <canvas id="canvas">
+  	</canvas>
     <header class="navbar navbar-fixed-top navbar-inverse">
       <div class="container">
         <%= link_to "turbolinks app", root_path, id: "logo" %>
@@ -29,5 +31,7 @@
     <div class="container">
       <%= yield %>
     </div>
+
   </body>
+  <%= javascript_include_tag "glow" %>
 </html>
