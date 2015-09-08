@@ -1,4 +1,5 @@
-        var canvas = document.getElementById("canvas");
+
+		var canvas = document.getElementById("canvas");
         var context = canvas.getContext("2d");
         var magenta = "#FF5157";
         var yellow = "#FFC159";
@@ -80,4 +81,3 @@
         window.onfocus = function() {
             requestAnimationFrame(animate);
         }
-   

@@ -4,6 +4,7 @@
 
 body {
   padding-top: 60px;
+  overflow:hidden;
 }
 
 section {
@@ -21,3 +22,62 @@ textarea {
 .center h1 {
   margin-bottom: 10px;
 }
+
+
+header.navbar.navbar-fixed-top.navbar-inverse {
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+	z-index:2;
+	background:black;
+}
+
+ul#primary-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 5%;
+    text-align: center;
+}
+
+ul.nav.navbar-nav.navbar-right {
+    text-align: center;
+}
+
+ul.center-buttons {
+    display: inline-block; }
+
+	@media only screen and (min-width: 40em) {
+  .top-bar {
+    text-align: center; }
+
+  ul.center-buttons {
+    display: inline-block; }
+
+  .logo {
+    left: 5px;
+    top: -2px;
+    position: absolute; } }
+.logo {
+  max-width: 2rem;
+  margin-top: -3px;
+  margin-left: 5px; }
+
+.menu-icon {
+  padding-top: 1.2rem; }
+
+.top-bar.expanded {
+  background: #333333; }
+
+.logo {
+  margin-top: .5rem; }
+  
+  li{
+  display:inline;
+  }
+  
+  img#luhgo {
+    width: 18%;
+}
+
