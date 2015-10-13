@@ -1,43 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title><%= content_for?(:title) ? yield(:title) : "foundation-rails" %></title>
-
-    <%= stylesheet_link_tag    "application" %>
-    <%= javascript_include_tag "vendor/modernizr" %>
-    <%= javascript_include_tag "glow" %>
-    <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
-    <%= csrf_meta_tags %>
-  </head>
-
-  <body>        
-    <canvas id="canvas" data-turbolinks-permanent>
-  	</canvas>
-    <header class="navbar navbar-fixed-top navbar-inverse">
-	<%= link_to image_tag "logo4.png", id: "luhgo" %>
-      <div class="container">
-        <nav>
-          <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to "About", root_path %></li>
-            <li><%= link_to "Music", music_path %></li>
-            <li><%= link_to "Projects", projects_path %></li>
-						<li><%= link_to "Contact", contact_path %></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-	
-	
-    <div class="container">
-      <%= yield %>
-    </div>
-
-  </body>
-	<script type="text/javascript" data-turbolinks-eval=false>
-    var canvas = document.getElementById("canvas");
+var canvas = document.getElementById("canvas");
         var context = canvas.getContext("2d");
         var magenta = "#FF5157";
         var yellow = "#FFC159";
@@ -119,6 +80,3 @@
         window.onfocus = function() {
             requestAnimationFrame(animate);
         }
-	</script>
-    <!-- <script type="text/javascript" src="public/js/glow.js"></script> --> 
-</html>

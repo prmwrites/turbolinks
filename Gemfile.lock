@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/rails/turbolinks.git
+  revision: 83d4b3d2c52a681f07900c28adb28bc8da604733
+  branch: master
+  specs:
+    turbolinks (3.0.0)
+      coffee-rails
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -57,7 +65,7 @@ GEM
     execjs (2.6.0)
     ffi (1.9.10-x86-mingw32)
     formatador (0.2.5)
-    foundation-rails (5.5.2.1)
+    foundation-rails (5.5.3.2)
       railties (>= 3.1.0)
       sass (>= 3.3.0, < 3.5)
     globalid (0.3.6)
@@ -92,12 +100,12 @@ GEM
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     method_source (0.8.2)
-    mime-types (2.6.1)
+    mime-types (2.6.2)
     mini_backtrace (0.1.3)
       minitest (> 1.2.0)
       rails (>= 2.3.3)
     mini_portile (0.6.2)
-    minitest (5.8.0)
+    minitest (5.8.1)
     minitest-reporters (1.0.5)
       ansi
       builder
@@ -107,11 +115,11 @@ GEM
     nenv (0.2.0)
     nokogiri (1.6.6.2-x86-mingw32)
       mini_portile (~> 0.6.0)
-    notiffany (0.0.7)
+    notiffany (0.0.8)
       nenv (~> 0.1)
       shellany (~> 0.0)
     pg (0.17.1-x86-mingw32)
-    pry (0.10.1-x86-mingw32)
+    pry (0.10.2-x86-mingw32)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
@@ -155,7 +163,7 @@ GEM
     rdoc (4.2.0)
       json (~> 1.4)
     ruby-progressbar (1.7.5)
-    sass (3.4.18)
+    sass (3.4.19)
     sass-rails (5.0.2)
       railties (>= 4.0.0, < 5.0)
       sass (~> 3.1)
@@ -168,9 +176,9 @@ GEM
     shellany (0.0.1)
     slop (3.6.0)
     spring (1.1.3)
-    sprockets (3.3.4)
-      rack (~> 1.0)
-    sprockets-rails (2.3.2)
+    sprockets (3.4.0)
+      rack (> 1, < 3)
+    sprockets-rails (2.3.3)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
@@ -178,11 +186,9 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (1.4.1)
-    turbolinks (2.3.0)
-      coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2015.6)
+    tzinfo-data (1.2015.7)
       tzinfo (>= 1.0.0)
     uglifier (2.5.3)
       execjs (>= 0.3.0)
@@ -208,9 +214,6 @@ DEPENDENCIES
   sdoc (= 0.4.0)
   spring (= 1.1.3)
   sqlite3 (= 1.3.9)
-  turbolinks (= 2.3.0)
+  turbolinks!
   tzinfo-data
   uglifier (= 2.5.3)
-
-BUNDLED WITH
-   1.10.6
