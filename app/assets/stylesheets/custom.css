@@ -11,6 +11,14 @@ section {
   overflow: auto;
 }
 
+h1 {
+    font-family: 'lobster'!important;
+}
+
+p {
+    font-family: 'ubuntu'!important;
+}
+
 textarea {
   resize: vertical;
 }
@@ -37,7 +45,7 @@ ul#primary-content {
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 5%;
+    top: 45%;
     text-align: center;
 }
 
