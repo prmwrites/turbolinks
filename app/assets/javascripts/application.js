@@ -17,5 +17,7 @@
 //= require turbolinks_transitions
 //= require_tree .
 //= require glow.js
-
+//= require 'TweenLite'
+//= require 'EasePack'
+//= require 'animate'
 $(document).foundation();
