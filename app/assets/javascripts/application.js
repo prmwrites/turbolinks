@@ -20,4 +20,6 @@
 //= require 'TweenLite'
 //= require 'EasePack'
 //= require 'animate'
+//= require 'jquery.blast.js'
+//= require 'velocity.js'
 $(document).foundation();

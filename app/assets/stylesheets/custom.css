@@ -12,6 +12,19 @@ section {
   overflow: visible;
 }
 
+@font-face {
+    font-family: 'rak';
+    src: url('<%= font_path(/assets/fonts/rakoon-webfont.eot) %>');
+    src: url('rakoon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('rakoon-webfont.woff2') format('woff2'),
+         url('rakoon-webfont.woff') format('woff'),
+         url('rakoon-webfont.ttf') format('truetype'),
+         url('rakoon-webfont.svg#rakoon_personal_useregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 h1 {
     font-family: 'Oswald', sans-serif!important;
 	color:white!important;
