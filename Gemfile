@@ -9,6 +9,8 @@ gem 'jquery-rails', '4.0.3'
 gem 'turbolinks', :github => 'rails/turbolinks', :branch => 'master'
 gem 'foundation-rails'
 gem 'jbuilder',     '2.2.3'
+gem 'contact_us', '~> 1.0.1'
+gem 'formtastic', '~> 3.0'
 gem 'sdoc',         '0.4.0', group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 

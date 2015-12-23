@@ -22,4 +22,5 @@
 //= require 'animate'
 //= require 'jquery.blast.js'
 //= require 'velocity.js'
+//= require 'velocity.ui.js'
 $(document).foundation();
