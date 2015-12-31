@@ -387,7 +387,6 @@ div#c1 {
     display: inline-block;
     margin-bottom: 40px;
     padding: 10px;
-    background: white;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease; }
   .service .service-heading {
@@ -405,7 +404,7 @@ div#c1 {
     -ms-transform: scale(0);
     transform: scale(0); }
   .service .service-icon-box > img.service-icon {
-    width: 40px; }
+    width: 60px; }
   .service:hover {
     border-color: black; }
   .service:hover .service-icon-box {
